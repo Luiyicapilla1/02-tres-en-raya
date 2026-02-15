@@ -1,0 +1,25 @@
+.board-cell {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: white solid 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-cell button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 100px;
+}
+
+.active-x-turn {
+  color: red;
+}
+
+.active-o-turn {
+  color: blue;
+}
